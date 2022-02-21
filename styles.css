@@ -1,0 +1,850 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+p{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem 0;
+}
+
+nav i{
+    font-size: 3rem;
+    padding: 0.7rem;
+}
+
+nav .logoZOOM{
+    width: 18rem;
+    height: 3rem;
+    padding:0 2rem
+}
+
+nav .bandera{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav  a{
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem;
+}
+.Textgrande{
+    font-size: 2rem;
+}
+nav ul a:hover{
+    border-bottom: 0.3rem solid #0070da;
+    color: #0070da;
+}
+
+/* banner1 */
+
+.banner1{
+    display: flex;
+}
+
+.banner1 img{
+    width: 50%;
+}
+
+.banner1 div{
+background: rgb(0,196,255);
+background: linear-gradient(45deg, rgba(0,196,255,1) 0%, rgba(0,143,255,1) 41%, rgba(1,78,255,1) 65%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0 3rem;
+}
+
+.banner1 .person{
+    background: none;
+    color: #00284d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    text-align: left;
+    display: flex;
+    align-items: flex-end; 
+    padding: 0.2rem;
+}
+
+.banner1 .zoomText{
+    background: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding-bottom: 1rem; 
+  
+}
+.banner1 .Formtext{
+    padding-bottom: 1rem;
+}
+.banner1 .Formtext input{
+    border-radius: 0.2rem;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b9b7b7;
+    width: 30rem;
+    height: 3.5rem;
+    padding: 0.3rem 0.9rem;
+}
+
+.banner1 button{
+    background-color: #011529;
+    color:white;
+    border-radius: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:0;
+    width: 13rem;
+    height: 4.1rem;
+    padding: 0.5rem 1rem;
+    margin: -2.5rem;
+}
+
+.banner1 .FormInput{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 30rem;
+}
+.banner1 div div{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    width: 45rem;
+    justify-content:left;
+    align-items: center ;
+}
+.banner1 .button1{
+    background-color: white;
+    font-size: 1.7rem;
+    text-align: left;
+    border-radius: 1rem;
+    color: black;
+    width: 19rem;
+    height: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    align-items: center; 
+    margin-right: 0.5rem;
+}
+.banner1 .button2{
+    background-color: white;
+    font-size: 1.7rem;
+    text-align: left;
+    border-radius: 1rem;
+    color: black;
+    width: 19rem;
+    height: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    align-items: center; 
+    margin-left: 2rem;
+}
+
+#i1{
+    color:#0070da;
+    font-size: 4rem;
+    padding-right: 0.8rem;
+}
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: -2rem;
+}
+
+.cajas div{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 1rem;
+    border: #ffffffc5 solid 0.1rem;
+    box-shadow: 1px 1px 7px #dddada;
+    gap:0.3rem;
+    padding: 1rem 4rem;
+    margin: 1rem;
+}
+.cajas div #cajasI{
+    font-size: 4.5rem;
+    color:#0070da;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    color: #0070da;
+    display: flex;
+    align-items: center;
+}
+.cajas div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #005eb6;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.cajas div strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-end;
+}
+.cajas div i{
+    padding: 0 0.5rem;
+}
+
+.tasaCambio{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+
+.tasaCambio img{
+    width: 3.5rem;
+    border-radius: 10rem;
+    margin: 0 1.5rem;
+}
+
+.tasaCambio .pAzul{
+    background: none;
+    color: #0070da;
+}
+.tasaCambio .pNegro{
+    background: none;
+    color:black;
+}
+.tasaCambio h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    color: #0070da;
+}
+.cajaTexto{
+    width: 100%rem;
+    height: 8rem;
+}
+.cajaTexto i{    
+    float: right;
+    color:#004f99;
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.sectionCaracteristicas{
+    background-color: white;
+}
+
+.sectionCaracteristicas .caractLeft{
+    display: flex;
+}
+.sectionCaracteristicas .caractLeft img{
+    width: 50%;
+    height: 28rem;
+    box-shadow: 1px 1px 7px #dddada;
+}
+.sectionCaracteristicas .caractLeft div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 0 15rem 0 6rem;
+    width: 28%;
+}
+
+.sectionCaracteristicas .caractLeft p{
+    background: none;
+    color: #0070da;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:left;
+}
+
+.sectionCaracteristicas .caractRigth{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sectionCaracteristicas .caractRigth img{
+    width: 50%;
+    height: 28rem;
+    box-shadow: 1px 1px 7px #dddada;
+}
+.sectionCaracteristicas .caractRigth div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    text-align: right;
+    padding: 0 15rem 0 6rem;
+    width: 28%;
+}
+
+.sectionCaracteristicas .caractRigth p{
+    background: none;
+    color: #0070da;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+}
+
+.divDescarga{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10rem 0;
+}
+.divDescarga .contImg{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.divDescarga .contImg img{
+    width: 45%;
+    margin: 0 5rem;
+}
+.divDescarga div{
+    display: flex;
+    width: 34rem;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+.divDescarga div h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 3.8rem;
+    text-align: right;
+}
+
+.divDescarga div a img{
+    width: 8rem;
+    box-shadow: 1px 1px 20px #dddada;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.divDescarga div p{
+    background: none;
+    color: #0070da;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+}
+
+.divDescarga div .botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.divDescarga div .botones button{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 1rem;
+    border:0;
+    box-shadow: 1px 1px 20px #dddada;
+    margin: 0 0.3rem;
+    padding: 1rem;
+    
+    
+}
+
+.divDescarga .botones i{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    font-size: 3rem;
+    padding-right: 1rem; 
+}
+
+.divDescarga .botones strong{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.section2{
+    background-color: #0687bb;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%230ab5f9' fill-opacity='0.39' fill-rule='evenodd'/%3E%3C/svg%3E");
+    padding: 7rem;
+}
+
+.section2 .informacion{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3rem; 
+}
+
+.section2 .informacion ul{
+    margin: 2rem;
+    text-align: left;
+    list-style: none;
+}
+.section2 .informacion ul li{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.section2 .informacion ul li a{
+    text-decoration: none;
+    color:black;
+
+    
+}
+.section2 .informacion strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+.section2 .informacion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .informacion2 h2{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section2 .informacion2 .iconosPago{
+    display:flex;
+    flex-direction: row;
+}
+
+.section2 .informacion2 .iconosPago a{
+    text-decoration: none;
+    color:black;
+}
+.section2 .informacion2 .iconosPago img{
+    width: 7rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+
+.section2 .informacion2 img{
+    width: 20%;
+    margin:3rem 0;
+}
+.section2 .informacion2 p i{
+    color:black;
+    margin-right: 1rem;
+}
+.section2 .informacion2 p{
+    background: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem ;
+}
+
+.section2 .informacion2 .iconosRedes{
+    margin: 3rem;
+}
+.section2 .informacion2 .iconosRedes a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.section2 .botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.section2 .botones button{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 1rem;
+    border:0;
+    box-shadow: 1px 1px 2px #dddada;
+    margin: 0 0.3rem;
+    padding: 1rem;
+    
+    
+}
+
+.section2 .botones i{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    font-size: 3rem;
+    padding-right: 1rem; 
+}
+
+.section2 .botones strong{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+}
+footer{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .listaRow{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    width:60%;
+    border-bottom: 0.1rem solid #ffffff34;
+    padding: 4rem;
+}
+
+footer .listaRow li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:2rem;
+    
+}
+
+footer .listaColumn{
+    list-style: none;
+    color:white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+}
+footer .listaColumn li{
+    margin: 0.5rem;
+}
+
+footer h4{
+    color:white;
+    text-align: center;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 1rem; 
+}
+
+@media (max-width:500px){
+
+    nav ul{
+        background-color: #1068bbd3;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top:0;
+        height: 100%;
+        padding-top: 2rem;
+        transform: translateX(-250px);
+    }
+    nav ul li {
+        color:white;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    
+    nav .logoZOOM{
+        width: 30%;
+    }
+    .banner1 img{
+        width: 0%;
+    }
+    
+    .banner1 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+    }
+    .banner1 .Formtext input,
+    .banner1 button{
+        width: 15rem;
+    }
+    .banner1 div div{
+        margin: 0;
+        padding: 0
+    }
+    .banner1 .button1,
+    .banner1 .button2{
+        width: 15rem;
+        margin-right: 0.5
+    }
+    
+    .tasaCambio img{
+        margin: 0.5rem;
+    }
+    
+    .cajas div{
+        width: 60%;
+        height: 10rem;
+    }
+    
+    .cajas div strong,
+    .cajas div p{
+        font-size: 1.6rem;
+    }
+    
+    .sectionCaracteristicas .caractLeft img,
+    .sectionCaracteristicas .caractRigth img{
+        width: 0%;
+    }
+    
+    .sectionCaracteristicas .caractLeft div,
+    .sectionCaracteristicas .caractRigth div{
+        width: 100%;
+        height: 20rem;
+        background-color: whitesmoke;
+        margin: 2rem;
+        border-radius: 2rem;
+        box-shadow: 1px 1px 7px #dddada;
+        padding: 1rem 4rem;
+    }
+   
+    .divDescarga{
+        padding: 5rem;
+    }
+    .divDescarga .contImg{
+        width: 0%;
+    }
+    .divDescarga div{
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .divDescarga div h1,
+    .divDescarga div p{
+        text-align: center;
+        padding: 1rem;
+    }
+    .section2 .informacion ul li{
+        text-align: center;
+        padding: 1rem
+    }
+    .section2 h2{
+        text-align: center;
+    }
+    .section2 .informacion2 .iconosPago img{
+    width: 6rem;
+    height: 3.8rem;
+    border-radius: 1rem;
+    margin:1rem;
+    }
+    .section2 .informacion2 img{
+        width: 50%;        
+    }
+    .section2 .informacion2 p,
+    .section2 .informacion2 p i{
+        font-size: 1.9rem;
+        margin: 0;
+        padding: 0;
+    }
+    .section2 .informacion2 .iconosRedes,
+    .section2 .informacion2 .iconosRedes a{
+        font-size:3rem;
+        margin: 2rem 0.5rem ;
+        padding: 0;
+    }
+    
+    footer .listaRow{
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    footer .listaRow li a{
+        font-size: 1.5rem;
+        text-align: center;
+        margin:0;
+        padding: 0rem;
+    }
+    footer .listaColumn li{
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px){
+
+    nav ul{
+        background-color: #1068bbd3;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top:0;
+        height: 100%;
+        padding-top: 2rem;
+        transform: translateX(-250px);
+    }
+    nav ul li {
+        color:white;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    
+    nav .logoZOOM{
+        width: 20%;
+    }
+    .banner1 img{
+        width: 60%;
+    }
+    
+    .banner1 div{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+    }
+    .banner1 .Formtext input,
+    .banner1 button{
+        width: 15rem;
+    }
+    .banner1 div div{
+        margin: 0;
+        padding: 0
+    }
+    .banner1 .button1,
+    .banner1 .button2{
+        width: 15rem;
+        margin-right: 0.5
+    }
+    
+    .tasaCambio img{
+        margin: 0.5rem;
+    }
+    
+    .cajas div{
+        width: 60%;
+        height: 10rem;
+    }
+    
+    .cajas div strong,
+    .cajas div p{
+        font-size: 1.6rem;
+    }
+    
+    .sectionCaracteristicas .caractLeft img,
+    .sectionCaracteristicas .caractRigth img{
+        width: 58%;
+    }
+  
+    .divDescarga div{
+        width: 50%;
+        align-items: center;
+        padding: 0;
+    }
+    .divDescarga div h1,
+    .divDescarga div p{
+        text-align: center;
+        padding: 1rem;
+    }
+    .section2 .informacion ul li{
+        text-align: center;
+        padding: 1rem
+    }
+    .section2 h2{
+        text-align: center;
+    }
+    .section2 .informacion2 .iconosPago img{
+    width: 6rem;
+    height: 3.8rem;
+    border-radius: 1rem;
+    margin:1rem;
+    }
+    .section2 .informacion2 img{
+        width: 50%;        
+    }
+    .section2 .informacion2 p,
+    .section2 .informacion2 p i{
+        font-size: 1.9rem;
+        margin: 0;
+        padding: 0;
+    }
+    .section2 .informacion2 .iconosRedes,
+    .section2 .informacion2 .iconosRedes a{
+        font-size:3rem;
+        margin: 2rem 0.5rem ;
+        padding: 0;
+    }
+    
+    footer .listaRow{
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    footer .listaRow li a{
+        font-size: 1.5rem;
+        text-align: center;
+        margin:0;
+        padding: 0rem;
+    }
+    footer .listaColumn li{
+        text-align: center;
+    }
+}
